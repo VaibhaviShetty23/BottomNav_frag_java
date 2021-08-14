@@ -11,13 +11,8 @@
         android:theme="@style/Theme.BottomNav_frag_java">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"
+            android:label="@string/title_activity_main2" />
     </application>
 
 </manifest>
